@@ -17,26 +17,50 @@ cd exec
 
 ## 파일 구조
 ```
-    .
-    ├── 1_2_library
-    │   ├── exec      <- 실행 파일 디렉토리
-    │   ├── include   <- 헤더 파일 디렉토리 
-    │   ├── lib       <- 라이브러리 파일 디렉토리
-    │   ├── makefile
-    │   └── src       <- 소스 파일 디렉토리
-    ├── 3_perror
-    │   ├── exec
-    │   ├── include
-    │   ├── lib
-    │   ├── makefile
-    │   └── src
-    ├── 4_assert
-    │   ├── exec
-    │   ├── include
-    │   ├── lib
-    │   ├── makefile
-    │   └── src
-    └── README.md
+.
+├── 1_2_library
+│   ├── exec		<-- 실행 파일 디렉토리 
+│   ├── include		<-- 헤더 파일 디렉토리
+│   ├── lib		<-- 라이브러리 디렉토리 
+│   ├── makefile	
+│   └── src		<-- 소스코드 디렉토리 
+├── 3_perror
+│   ├── exec
+│   ├── include
+│   ├── lib
+│   ├── makefile
+│   └── src
+├── 4_assert
+│   ├── exec
+│   ├── include
+│   ├── lib
+│   ├── makefile
+│   └── src
+├── 5_matrix
+│   ├── exec
+│   ├── include
+│   ├── lib
+│   ├── makefile
+│   └── src
+├── 6_matrix_vector
+│   ├── exec
+│   ├── include
+│   ├── lib
+│   ├── makefile
+│   └── src
+├── 7_student
+│   ├── exec
+│   ├── include
+│   ├── lib
+│   ├── makefile
+│   └── src
+├── 8_student_map
+│   ├── exec
+│   ├── include
+│   ├── lib
+│   ├── makefile
+│   └── src
+└── README.md
 ```
 
 ## 과제 내용
