@@ -2,6 +2,43 @@
 
 이 레포지토리는 오픈소스 프로젝트 교과목 과제를 위한 것입니다.
 
+## 실행 방법
+```bash
+git clone https://github.com/DAADAISMYLIFE/open_source_study.git
+
+cd <문제 번호>
+
+make
+
+cd exec
+
+./<실행파일>
+```
+
+## 파일 구조
+```
+TestProject
+    ├── 1_2_library
+    │   ├── exec      <- 실행 파일 디렉토리
+    │   ├── include   <- 헤더 파일 디렉토리 
+    │   ├── lib       <- 라이브러리 파일 디렉토리
+    │   ├── makefile
+    │   └── src       <- 소스 파일 디렉토리
+    ├── 3_perror
+    │   ├── exec
+    │   ├── include
+    │   ├── lib
+    │   ├── makefile
+    │   └── src
+    ├── 4_assert
+    │   ├── exec
+    │   ├── include
+    │   ├── lib
+    │   ├── makefile
+    │   └── src
+    └── README.md
+```
+
 ## 과제 내용
 
 1. **사칙연산 함수 구현**
