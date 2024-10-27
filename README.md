@@ -17,7 +17,7 @@ cd exec
 
 ## 파일 구조
 ```
-TestProject
+    .
     ├── 1_2_library
     │   ├── exec      <- 실행 파일 디렉토리
     │   ├── include   <- 헤더 파일 디렉토리 
