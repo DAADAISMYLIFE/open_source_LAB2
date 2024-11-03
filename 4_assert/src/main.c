@@ -1,20 +1,21 @@
 #include <stdio.h>
-#include "my_perror.h"
+#include <stdlib.h>
+#include "my_assert.h"
+
+void foo(int num){
+	MY_ASSERT( ((num>=0) && (num <= 100)) );
+
+	printf("foo: num = %d\n", num);
+}
 
 int main(int argc, char *argv[]){
-	FILE *f;
+	int num;
 
 	if(argc < 2){
-		printf("Usage: errno_show file_name\n");
+		fprintf(stderr, "Usage : assert_test aNumber.\n(0 <= aNumber <= 100)\n");
 		exit(1);
 	}
 
-	if( (f=fopen(argv[1], "r")) == NULL){
-		my_perror(NULL);
-		exit(1);
-	}
-
-	printf("Open a file \"%s\". \n", argv[1]);
-
-	return 0;
+	num = atoi(argv[1]);
+	foo(num);
 }

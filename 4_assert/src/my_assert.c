@@ -1,14 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <errno.h>
 
-#define my_assert(expression) (#expression)
-
-void my_assert(int expression){
-	if(expression==0){
-		fprintf(stdout, "")
-		abort();
-	}
-	
-}
+#define MY_ASSERT(x) do {\
+	if (!(x)) { \
+		fprintf(stdout,"조건(%s)에 맞지않음.\n", #x);\
+		abort(); \
+	}\
+} while(0)

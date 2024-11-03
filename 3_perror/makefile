@@ -1,5 +1,5 @@
 exec/main : src/main.c lib/libperror.a
-	gcc -o exec/main -I./include -L./lib src/main.c -lperror
+	gcc -g -o exec/main -I./include -L./lib src/main.c -lperror
 
 lib/libperror.a : src/my_perror.o
 	ar rcs lib/libperror.a src/my_perror.o
