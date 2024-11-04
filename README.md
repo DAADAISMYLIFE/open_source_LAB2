@@ -4,7 +4,7 @@
 
 ## 실행 방법
 ```bash
-git clone https://github.com/DAADAISMYLIFE/open_source_study.git
+git clone https://github.com/DAADAISMYLIFE/open_source_LAB2.git
 
 cd <문제 번호>
 
